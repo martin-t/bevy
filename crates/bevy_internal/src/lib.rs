@@ -7,6 +7,24 @@ pub mod prelude;
 mod default_plugins;
 pub use default_plugins::*;
 
+// Test using: cargo run --example hello_world --no-default-features --features bevy/dynamic
+
+//pub use fyrox::*;
+
+pub use fyrox_ui::*;
+
+//pub use fyrox_core::*;
+//pub use lazy_static::*;
+//pub use copypasta::*;
+//pub use fontdue::*;
+//pub use notify::*;
+//pub use fxhash::*;
+//pub use strum::*;
+//pub use strum_macros::*;
+
+//pub use fyrox_core::*;
+//pub use ::winit::*;
+
 pub mod app {
     //! Build bevy apps, create plugins, and read events.
     pub use bevy_app::*;

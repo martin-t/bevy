@@ -97,6 +97,22 @@ bevy_ui = { path = "../bevy_ui", optional = true, version = "0.9.0-dev" }
 bevy_winit = { path = "../bevy_winit", optional = true, version = "0.9.0-dev" }
 bevy_gilrs = { path = "../bevy_gilrs", optional = true, version = "0.9.0-dev" }
 
+#fyrox = "0.27.1"
+
+fyrox-ui = "0.18.0"
+
+#fyrox-core = { version = "0.21.0" }
+#lazy_static = "1.4.0"
+#copypasta = "0.8.1"
+#fontdue = "0.7.2"
+#notify = "4.0"
+#fxhash = "0.2.1"
+#strum = "0.24.0"
+#strum_macros = "0.24.0"
+
+#fyrox-core = "0.21.0"
+#winit = "0.27.1"
+
 [target.'cfg(target_os = "android")'.dependencies]
 # This version *must* be the same as the version used by winit,
 # or Android will break: https://github.com/rust-windowing/winit#android
